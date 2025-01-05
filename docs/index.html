@@ -29,16 +29,16 @@
 <body>
   <h1>Things 3 Opener</h1>
   <p>Klicke auf einen Button, um eine Aufgabe in Things 3 zu öffnen:</p>
-  <button onclick="openThings()">Präsentation finalisieren</button>
-  <button onclick="openThingsMeeting()">Team-Meeting vorbereiten</button>
+  <button onclick="openThings()">Tag starrten</button>
+  <!-- <button onclick="openThingsMeeting()">Team-Meeting vorbereiten</button> -->
 
   <script>
     function openThings() {
-      window.location.href = "things:///show?id=12345";
+      window.location.href = "things:///show?id=today";
     }
-    function openThingsMeeting() {
-      window.location.href = "things:///show?id=67890";
-    }
+    // function openThingsMeeting() {
+    //   window.location.href = "things:///show?id=67890";
+    // }
   </script>
 </body>
 </html>
